@@ -122,31 +122,6 @@
 					},
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "reason",
-						"type": "string"
-					}
-				],
-				"name": "SwapFailed",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "user",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "usdtAmount",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
 						"internalType": "uint256",
 						"name": "minOut",
 						"type": "uint256"
@@ -313,7 +288,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/HITBNBBuyer.sol": "HITBNBBuyer"
+			"contract/HITBNBBuyer_V2.sol": "HITBNBBuyer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -383,12 +358,12 @@
 				"dweb:/ipfs/QmfDRc7pxfaXB2Dh9np5Uf29Na3pQ7tafRS684wd3GLjVL"
 			]
 		},
-		"contract/HITBNBBuyer.sol": {
-			"keccak256": "0xda04131baa452267dd71e9ae5ea86087be5e2b184444eedc22ae1bf40d3a0da3",
+		"contract/HITBNBBuyer_V2.sol": {
+			"keccak256": "0xc1ea8a76be63cc220ed4faae1fad7d0db61b747b8a6718ed4b0e9b75a581c6fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e7a0108f253973e7f0fee05b085b0514a3bd875db7f9f64396e3d0fcba1078a",
-				"dweb:/ipfs/QmaXGUkTgfzNLtFZoQUMpxmZstXJSDCFamwwLM639ynwgy"
+				"bzz-raw://8a357caf33c1b47c0a02c023fdf4d7b30a57c89171bb6269c3ddc44887e7e9f8",
+				"dweb:/ipfs/QmaoFU1PA3Y6Z1d5HEYYzpyRyymzCFf9mMciRhX4FdTrNw"
 			]
 		}
 	},
